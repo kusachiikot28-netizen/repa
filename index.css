@@ -1,0 +1,10 @@
+@import "tailwindcss";
+
+@theme {
+  --color-accent: var(--accent-color, #FF0000);
+  --color-accent-secondary: var(--accent-secondary-color, #B30000);
+  --shadow-accent: 0 4px 14px 0 var(--accent-secondary-color);
+}
+
+/* Force class-based dark mode in Tailwind 4, disabling media query preference */
+@variant dark (&:is(.dark, .dark *));

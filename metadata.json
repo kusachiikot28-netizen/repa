@@ -1,0 +1,5 @@
+{
+  "name": "Cadence+",
+  "description": "Приложение для велосипедной навигации с историей поездок и настройками.",
+  "requestFramePermissions": ["geolocation"]
+}
